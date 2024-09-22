@@ -31,44 +31,39 @@ Project Structure
 
 /bomberman-fpga
 
-│
+TOP_VGA_DEMO_KBD.sv      # Top-level module for VGA and keyboard integration
 
-├── /src                         # Source code for SystemVerilog modules
+game_controller.sv       # Main game controller logic
 
+objects_mux.sv           # Multiplexer for game objects
 
-│   ├── TOP_VGA_DEMO_KBD.sv      # Top-level module for VGA and keyboard integration
+thanos_mines_move.sv     # Movement logic for Thanos' mines
 
-│   ├── game_controller.sv       # Main game controller logic
+loki_mine_move.sv        # Movement logic for Loki's mines
 
-│   ├── objects_mux.sv           # Multiplexer for game objects
+smiley_move.sv           # Smiley face movement logic
 
-│   ├── thanos_mines_move.sv     # Movement logic for Thanos' mines
+Matrix_DISPLAY.sv        # Display matrix for the game grid
 
-│   ├── loki_mine_move.sv        # Movement logic for Loki's mines
+Sound_controller.sv      # Sound control logic
 
-│   ├── smiley_move.sv           # Smiley face movement logic
+bombBitMap.sv            # Bitmap for bomb representation
 
-│   ├── Matrix_DISPLAY.sv        # Display matrix for the game grid
+mine_mux.sv              # Multiplexer for mine handling
 
-│   ├── Sound_controller.sv      # Sound control logic
+NumbersBitMap.sv         # Bitmap for number objects (e.g., scores)
 
-│   ├── bombBitMap.sv            # Bitmap for bomb representation
+VGA_Controller.sv        # VGA controller for rendering the game
 
-│   ├── mine_mux.sv              # Multiplexer for mine handling
+thorBitMap.sv            # Bitmap for Thor's character
 
-│   ├── NumbersBitMap.sv         # Bitmap for number objects (e.g., scores)
+thanosBitMap.sv          # Bitmap for Thanos' character
 
-│   ├── VGA_Controller.sv        # VGA controller for rendering the game
+lokiBitMap.sv            # Bitmap for Loki's character
 
-│   ├── thorBitMap.sv            # Bitmap for Thor's character
+hit.sv                   # Collision detection logic
 
-│   ├── thanosBitMap.sv          # Bitmap for Thanos' character
-
-│   ├── lokiBitMap.sv            # Bitmap for Loki's character
-
-│   └── hit.sv                   # Collision detection logic
-
-└── /bitmaps                     # Bitmap images used for characters and objects
+bitmaps                     # Bitmap images used for characters and objects
 
     ├── bombBitMap.sv
     
