@@ -28,7 +28,7 @@ Marvel Thor Theme: Character sprites and theme inspired by Marvel's Thor univers
 
 
 
-Project Structure
+--Project Structure--
 
 /bomberman
 
