@@ -95,7 +95,7 @@ Compile the project:
 
 Program the FPGA using Quartus to load the game and play the Thor-themed Bomberman directly on the board.
 
-How to Play
+--How to Play--
 
 Connect the FPGA to a display and controller (e.g., buttons or switches on the FPGA board).
 
