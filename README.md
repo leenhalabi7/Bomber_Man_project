@@ -27,9 +27,10 @@ VGA Controller: For rendering the game on a screen via an FPGA.
 Marvel Thor Theme: Character sprites and theme inspired by Marvel's Thor universe.
 
 
+
 Project Structure
 
-/bomberman-fpga
+/bomberman
 
 TOP_VGA_DEMO_KBD.sv      # Top-level module for VGA and keyboard integration
 
@@ -62,6 +63,7 @@ thanosBitMap.sv          # Bitmap for Thanos' character
 lokiBitMap.sv            # Bitmap for Loki's character
 
 hit.sv                   # Collision detection logic
+
 
 bitmaps                     # Bitmap images used for characters and objects
 
