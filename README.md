@@ -1,10 +1,9 @@
 Thor-Themed Bomberman Game on FPGA using SystemVerilog
-
 --Overview--
 
 This project is an implementation of the classic Bomberman game with a Thor theme from the Marvel universe. The game is designed using SystemVerilog and runs on an FPGA. The project is synthesized and simulated using Quartus software.
 
-Players take on characters from the Thor universe, such as Thor, Loki, and Thanos, and engage in explosive gameplay with a superhero twist.
+The game takes on characters from the Thor universe, such as Thor, Loki, and Thanos, and engage in explosive gameplay with a superhero twist.
 
 --Features--
 
